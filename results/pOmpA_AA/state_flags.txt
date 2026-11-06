@@ -1,0 +1,2 @@
+state2: width sits at the lower bound (0.099) - the data may be narrower than the bound
+state2: small population (14%)

@@ -1,0 +1,2 @@
+n_measurements,n_bursts,E_mean_pooled,E_median_pooled,E_mode_pooled,E_mean_sd_between_measurements,E_mean_sem,E_median_sd_between_measurements,gamma,gamma_sd,E_mean_shift_per_gamma_sd
+2,4776,0.4443592053912767,0.4678857990697999,0.6870000000000007,0.03856048950031751,0.027266383611547176,0.06682981907899459,1.0293101849176978,0.03288272192370736,0.001621330169891133

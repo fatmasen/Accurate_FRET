@@ -1,0 +1,6 @@
+state1: small population (14%)
+state1: E moves by +0.06 with the shot noise width basis
+state1: E = 0.12 outside the 0.15-0.85 range, distance only qualitative
+state2: E moves by +0.08 with the shot noise width basis
+state3: width sits at the lower bound (0.096) - the data may be narrower than the bound
+state3: population moves by -15 points with the shot noise width basis

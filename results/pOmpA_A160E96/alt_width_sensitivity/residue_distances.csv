@@ -1,0 +1,4 @@
+state,E,E_err,population_pct,population_err_pct,dye_dye_R_A,residue_residue_distance_A,distance_min_A,distance_max_A,note
+state1,0.1352,,60.699999999999996,,69.48536465164523,72.99940694371921,,,E outside 0.15-0.85: distance only qualitative (Lee 2005)
+state2,0.4436,,23.200000000000003,,52.96261744626556,51.15214976340669,,,
+state3,0.7868,,16.1,,41.02582447585209,31.69815531975721,,,

@@ -1,0 +1,80 @@
+
+======================================================================
+Run 2026-10-20 12:37:18 (per measurement)
+folder=C:\Users\fatma\GitHub\Accurate_FRET\data\TF_A230A297\Monomer
+
+$ C:\Users\fatma\.venv\Scripts\python.exe C:\Users\fatma\GitHub\Accurate_FRET\scripts\per_measurement.py --folder C:\Users\fatma\GitHub\Accurate_FRET\data\TF_A230A297\Monomer --out C:\Users\fatma\GitHub\Accurate_FRET\results\Monomer --n auto --R0 51.0 --R0_err 2.0 --L_D 20.0 --L_A 22.0
+5 measurement(s) in C:\Users\fatma\GitHub\Accurate_FRET\data\TF_A230A297\Monomer
+
+COMMENTS on alpha / delta (value used for the correction = the file's own APBS value; DNA-control values are from the 2023 session and only shown for comparison)
+  DNA controls: DNA11: alpha=0.151 delta=0.178; DNA20: alpha=0.120 delta=0.143; DNA5: alpha=0.165 delta=0.135
+  240410_TFa230a297_monomer_highS: alpha_file=0.118 (group highS median n/a (fewer than 4 files in group); vs DNA 0.120-0.165: -0.027) | delta=0.112 (group median 0.112: +0.000; vs DNA 0.135-0.178: -0.039)
+  250216_tfa230a297_monomerMg2: alpha_file=0.102 (group normal median 0.103; vs DNA 0.120-0.165: -0.044) | delta=0.074 (group median 0.089: -0.015; vs DNA 0.135-0.178: -0.078)
+  250216_tfa230a297_monomernoMg: alpha_file=0.093 (group normal median 0.103; vs DNA 0.120-0.165: -0.053) | delta=0.084 (group median 0.089: -0.005; vs DNA 0.135-0.178: -0.068)
+  260129_tfa230a297_monomer: alpha_file=0.103 (group normal median 0.103; vs DNA 0.120-0.165: -0.042) | delta=0.099 (group median 0.089: +0.011; vs DNA 0.135-0.178: -0.053)
+  260204_tfa230a297_monomer: alpha_file=0.105 (group normal median 0.103; vs DNA 0.120-0.165: -0.040) | delta=0.094 (group median 0.089: +0.005; vs DNA 0.135-0.178: -0.058)
+
+Common gamma = 1.43 +/- 0.07  (fallback for files without a reliable own regression: median of 4 of 5 reliable files in this folder)
+  gamma mode: each file uses the gamma of its OWN apbs regression when that is reliable
+  per construct: TF_A160K327: 1.25 (n=15); TF_A230A297: 1.41 (n=13); TF_E96A160: 1.09 (n=25); TF_E96A230: 1.08 (n=10); TF_T91A230: 0.89 (n=9)
+
+Width lower bound = max( photon shot noise sqrt(E(1-E)/N) with N = 118 photons, DNA-standard table 'dna_sigma_floor.csv' )  [basis: DNA standards]
+
+PER-MEASUREMENT RESULTS (each corrected with its own reference)
+
+                    measurement  selected_bursts  alpha  delta  gamma gamma_source  beta  E_median  E_mode  W1_to_pool                             states merged reason
+240410_TFa230a297_monomer_highS             3146  0.118  0.112  1.765          own 0.816     0.397   0.063       0.034 0.08 (27%), 0.38 (41%), 0.80 (31%)    yes       
+   250216_tfa230a297_monomerMg2              969  0.102  0.074  1.405          own 1.128     0.436   0.333       0.068             0.37 (75%), 0.85 (25%)    yes       
+  250216_tfa230a297_monomernoMg              993  0.093  0.084  1.415          own 1.085     0.367   0.381       0.039 0.03 (11%), 0.34 (68%), 0.83 (21%)    yes       
+      260129_tfa230a297_monomer             1022  0.103  0.099  1.431       common 1.071     0.498   0.905       0.058 0.05 (18%), 0.45 (55%), 0.85 (27%)    yes       
+      260204_tfa230a297_monomer             1949  0.105  0.094  1.448          own 0.857     0.378   0.277       0.026 0.02 (12%), 0.31 (57%), 0.77 (31%)    yes       
+  note: 240410_TFa230a297_monomer_highS: different laser power ratio (delta+beta) (corrected with its own factors)
+  note: 250216_tfa230a297_monomerMg2: different laser power ratio (delta) (corrected with its own factors)
+  note: 260204_tfa230a297_monomer: different laser power ratio (beta) (corrected with its own factors)
+  note: 240410_TFa230a297_monomer_highS: own gamma 1.77 differs by more than 15% from the folder median 1.43 (own value used, as requested - check this file; --gamma_mode global would use one value)
+  note: 260129_tfa230a297_monomer: own gamma regression not reliable (E span 0.89) -> folder median 1.43 used
+
+5 of 5 measurements are compatible and will be merged.
+
+Model selection (Gaussian mixtures fitted to corrected E):
+  k=1  logL=  -1581.9  BIC=   3181.7  sigma=0.294  -> baseline
+  k=2  BIC=   1674.6  (gain  1507.2; means 0.29, 0.81 | fractions 0.72, 0.28) -> accepted
+  k=3  BIC=   1149.6  (gain   525.0; means 0.04, 0.35, 0.81 | fractions 0.14, 0.58, 0.28) -> accepted
+
+>>> merged fit: 3 FRET states from 8079 bursts
+
+  state      E  E_err  sigma  sigma_floor  fraction  fraction_err
+state1 0.0396 0.0130  0.057        0.033     0.137         0.040
+state2 0.3515 0.0185  0.178        0.083     0.582         0.056
+state3 0.8103 0.0158  0.099        0.099     0.281         0.021
+
+(E_err: bootstrap over 5 measurements incl. each measurement's correction-factor uncertainty)
+
+R0 = 51.0 +/- 2.0 A | linker donor = 20.0 A, acceptor = 22.0 A
+
+ state     E  E_err  population_pct  population_err_pct  dye_dye_R_A  residue_residue_distance_A  distance_min_A  distance_max_A                                                      note
+state1 0.040  0.013            13.7                 4.0         86.8                        91.3            84.0           100.8 E outside 0.15-0.85: distance only qualitative (Lee 2005)
+state2 0.352  0.018            58.2                 5.6         56.5                        56.3            53.0            59.8                                                          
+state3 0.810  0.016            28.1                 2.1         40.0                        30.0            26.8            33.1                                                          
+
+Population of each distance state (share of bursts in the fit):
+    30.0 A  (27-33)  ->   28.1 +/- 2.1 %   [state3]
+    56.3 A  (53-60)  ->   58.2 +/- 5.6 %   [state2]
+    91.3 A  (84-101)  ->   13.7 +/- 4.0 %   [state1]
+
+Saved residue_distances.csv and residue_distances.png
+
+MODEL-FREE RESULT (headline): pooled mean E = 0.438, median 0.405, mode 0.271; spread of the per-measurement means = 0.040 (n = 5); gamma +/- 1 SD shifts the mean by about 0.007
+
+SENSITIVITY: same bursts, widths bounded by shot noise instead of DNA standards (the headline result uses DNA standards)
+ state  E_main  E_alt    dE  pop_main  pop_alt   dpop  sigma_main  sigma_alt
+state1   0.040  0.041 0.001     0.137    0.137  0.000       0.057      0.058
+state2   0.352  0.358 0.006     0.582    0.593  0.011       0.178      0.182
+state3   0.810  0.816 0.006     0.281    0.270 -0.012       0.099      0.094
+  number of states: main 3, alternative 3
+STATE RELIABILITY FLAGS: 
+  - state1: small population (14%)
+  - state1: E = 0.04 outside the 0.15-0.85 range, distance only qualitative
+  - state3: width sits at the lower bound (0.099) - the data may be narrower than the bound
+
+All results are in: C:\Users\fatma\GitHub\Accurate_FRET\results\Monomer

@@ -1,0 +1,1 @@
+state2: width sits at the lower bound (0.107) - the data may be narrower than the bound

@@ -1,0 +1,3 @@
+state1: E = 0.12 outside the 0.15-0.85 range, distance only qualitative
+state2: E moves by +0.05 with the shot noise width basis
+state3: width sits at the lower bound (0.102) - the data may be narrower than the bound

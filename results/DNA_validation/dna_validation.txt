@@ -1,0 +1,23 @@
+alpha = 0.145  (per file: 0.165, 0.151, 0.120)
+delta = 0.152  (per file: 0.135, 0.178, 0.143)
+global gamma = 1.47 +/- 0.02, beta = 0.59 +/- 0.01
+
+standard  bp  bursts  E_apparent  E_corrected  E_err_gamma  E_median  E_mode  sigma_obs  sigma_shot  R_dye_dye_from_mean_E  axial_rise_A  E_AV_best_phi  residual E_AV_phi_range  E_corrected_at_gamma_AV  residue_distance_A_corrected  residue_distance_A_apparent  residue_distance_A_at_gamma_AV
+    DNA5   5    2777       0.752        0.624        0.004     0.658   0.652      0.143       0.033                 46.861          17.0          0.888    -0.264      0.82-0.94                    0.830                        41.496                       34.025                          28.491
+   DNA11  11    3228       0.549        0.365        0.004     0.371   0.372      0.116       0.034                 55.946          37.4          0.585    -0.220      0.56-0.70                    0.628                        55.569                       45.553                          41.310
+   DNA20  20    4099       0.293        0.076        0.001     0.065   0.045      0.084       0.018                 77.312          68.0          0.157    -0.081      0.13-0.18                    0.195                        81.598                       59.985                          67.166
+
+RESIDUE-RESIDUE DISTANCES (A, linker-averaged model; point-dye value is R_dye_dye_from_mean_E above):
+standard  bp  axial_rise_A  residue_distance_A_corrected  residue_distance_A_apparent  residue_distance_A_at_gamma_AV
+    DNA5   5          17.0                          41.5                         34.0                            28.5
+   DNA11  11          37.4                          55.6                         45.6                            41.3
+   DNA20  20          68.0                          81.6                         60.0                            67.2
+  corrected = regression gamma; apparent = no correction; at_gamma_AV = gamma that best fits the dye-position model
+
+E decreases monotonically with bp: True
+AV best common phi = 110 deg, max |residual| = 0.264 (tol 0.07)
+gamma that best matches the AV model = 0.50 (rms 0.013, phi 60 deg); regression gamma = 1.47 +/- 0.02; agree: False
+widths vs shot noise: DNA5 0.143 vs 0.033, DNA11 0.116 vs 0.034, DNA20 0.084 vs 0.018
+
+VERDICT: NOT VALIDATED - ladder monotonic: True; AV agreement at regression gamma: False; regression gamma consistent with AV: False
+Caveat: AV model is crude (no steric path search, assumed attachment geometry and base-pair numbers); the DNA data are from one session (July 2023).

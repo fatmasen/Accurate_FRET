@@ -1,0 +1,136 @@
+
+======================================================================
+Run 2026-10-20 11:38:03 (per measurement)
+folder=C:\Users\fatma\GitHub\Accurate_FRET\data\TF_A160K327\Monomer
+
+$ C:\Users\fatma\.venv\Scripts\python.exe C:\Users\fatma\GitHub\Accurate_FRET\scripts\per_measurement.py --folder C:\Users\fatma\GitHub\Accurate_FRET\data\TF_A160K327\Monomer --out C:\Users\fatma\GitHub\Accurate_FRET\results\Monomer --n auto --R0 51.0 --R0_err 2.0 --L_D 20.0 --L_A 22.0
+15 measurement(s) in C:\Users\fatma\GitHub\Accurate_FRET\data\TF_A160K327\Monomer
+ERROR:
+  !! UNPAIRED FILES (not analysed): 240429_tfa160k327_monomr_highS_dcbs.csv, 241219_tfa160k327_monomerMgOcA_dcbs.csv, 240429_tfa160k327_monomer_highS_apbs.csv, 241219_tfa160k327_monomerMgOaC_apbs.csv
+     Rename so that the file names differ only by 'apbs'/'dcbs' (e.g. ..._monomer_dcbs.csv + ..._monomer_apbs.csv).
+     (use --allow_unpaired to continue without them)
+
+======================================================================
+Run 2026-10-20 11:43:36 (per measurement)
+folder=C:\Users\fatma\GitHub\Accurate_FRET\data\TF_A160K327\Monomer
+
+$ C:\Users\fatma\.venv\Scripts\python.exe C:\Users\fatma\GitHub\Accurate_FRET\scripts\per_measurement.py --folder C:\Users\fatma\GitHub\Accurate_FRET\data\TF_A160K327\Monomer --out C:\Users\fatma\GitHub\Accurate_FRET\results\Monomer --n auto --R0 51.0 --R0_err 2.0 --L_D 20.0 --L_A 22.0
+17 measurement(s) in C:\Users\fatma\GitHub\Accurate_FRET\data\TF_A160K327\Monomer
+
+COMMENTS on alpha / delta (value used for the correction = the file's own APBS value; DNA-control values are from the 2023 session and only shown for comparison)
+  DNA controls: DNA11: alpha=0.151 delta=0.178; DNA20: alpha=0.120 delta=0.143; DNA5: alpha=0.165 delta=0.135
+  240429_tfa160k327_monomer_highS: alpha_file=0.144 (group highS median 0.181, REPLACED -> 0.181; vs DNA 0.120-0.165: -0.002) | delta=0.101 (group median 0.128: -0.026; vs DNA 0.135-0.178: -0.050)
+  240607_tfa160k327_monomer_highS: alpha_file=0.174 (group highS median 0.181; vs DNA 0.120-0.165: +0.028) | delta=0.114 (group median 0.128: -0.014; vs DNA 0.135-0.178: -0.038)
+  240620_tfa160k327_monomer_highS: alpha_file=0.131 (group highS median 0.181, REPLACED -> 0.181; vs DNA 0.120-0.165: -0.015) | delta=0.126 (group median 0.128: -0.002; vs DNA 0.135-0.178: -0.026)
+  240705_tfa160k327_monomer_highS: alpha_file=0.181 (group highS median 0.181; vs DNA 0.120-0.165: +0.035) | delta=0.128 (group median 0.128: +0.000; vs DNA 0.135-0.178: -0.024)
+  240710_tfa160k327_monomer_highS: alpha_file=0.185 (group highS median 0.181; vs DNA 0.120-0.165: +0.040) | delta=0.133 (group median 0.128: +0.005; vs DNA 0.135-0.178: -0.019)
+  240718_tfa160k327_monomer_highS: alpha_file=0.182 (group highS median 0.181; vs DNA 0.120-0.165: +0.036) | delta=0.137 (group median 0.128: +0.009; vs DNA 0.135-0.178: -0.015)
+  241208_tfa160k327_monomerMg2buffer: alpha_file=0.078 (group normal median 0.107; vs DNA 0.120-0.165: -0.067) | delta=0.099 (group median 0.098: +0.001; vs DNA 0.135-0.178: -0.053)
+  241209_tfa160k327_monomerMg2: alpha_file=0.115 (group normal median 0.107; vs DNA 0.120-0.165: -0.031) | delta=0.096 (group median 0.098: -0.002; vs DNA 0.135-0.178: -0.056)
+  241213_tfa160k327_monomerMg2: alpha_file=0.105 (group normal median 0.107; vs DNA 0.120-0.165: -0.041) | delta=0.101 (group median 0.098: +0.003; vs DNA 0.135-0.178: -0.051)
+  241213_tfa160k327_monomer_noMg2: alpha_file=0.100 (group normal median 0.107; vs DNA 0.120-0.165: -0.045) | delta=0.104 (group median 0.098: +0.006; vs DNA 0.135-0.178: -0.048)
+  241219_tfa160k327_monomer: alpha_file=0.108 (group normal median 0.107; vs DNA 0.120-0.165: -0.037) | delta=0.090 (group median 0.098: -0.008; vs DNA 0.135-0.178: -0.062)
+  241219_tfa160k327_monomerMgCl: alpha_file=0.095 (group normal median 0.107; vs DNA 0.120-0.165: -0.050) | delta=0.093 (group median 0.098: -0.005; vs DNA 0.135-0.178: -0.059)
+  241219_tfa160k327_monomerMgOaC: alpha_file=0.081 (group normal median 0.107; vs DNA 0.120-0.165: -0.064) | delta=0.088 (group median 0.098: -0.010; vs DNA 0.135-0.178: -0.064)
+  250627_tfa160k327_monomer_highS: alpha_file=0.232 (group highS median 0.181, REPLACED -> 0.181; vs DNA 0.120-0.165: +0.086) | delta=0.135 (group median 0.128: +0.007; vs DNA 0.135-0.178: -0.017)
+  251022_tfa160k327_monomer: alpha_file=0.120 (group normal median 0.107; vs DNA 0.120-0.165: -0.026) | delta=0.100 (group median 0.098: +0.002; vs DNA 0.135-0.178: -0.052)
+  251022_tfa160k327_monomer2: alpha_file=0.114 (group normal median 0.107; vs DNA 0.120-0.165: -0.031) | delta=0.099 (group median 0.098: +0.001; vs DNA 0.135-0.178: -0.053)
+  260108_tfa160k327_monomer: alpha_file=0.111 (group normal median 0.107; vs DNA 0.120-0.165: -0.034) | delta=0.097 (group median 0.098: -0.001; vs DNA 0.135-0.178: -0.055)
+
+Common gamma = 1.19 +/- 0.06  (fallback for files without a reliable own regression: median of 10 of 17 reliable files in this folder)
+  gamma mode: each file uses the gamma of its OWN apbs regression when that is reliable
+  per construct: TF_A160K327: 1.25 (n=15); TF_A230A297: 1.41 (n=13); TF_E96A160: 1.09 (n=25); TF_E96A230: 1.08 (n=10); TF_T91A230: 0.89 (n=9)
+
+Width lower bound = max( photon shot noise sqrt(E(1-E)/N) with N = 127 photons, DNA-standard table 'dna_sigma_floor.csv' )  [basis: DNA standards]
+
+PER-MEASUREMENT RESULTS (each corrected with its own reference)
+
+                       measurement  selected_bursts  alpha  delta  gamma gamma_source  beta  E_median  E_mode  W1_to_pool                             states merged                                                            reason
+   240429_tfa160k327_monomer_highS             1874  0.181  0.101  1.193       common 0.936     0.729   0.899       0.060             0.45 (43%), 0.82 (57%)    yes                                                                  
+   240607_tfa160k327_monomer_highS             1598  0.174  0.114  1.542          own 0.837     0.654   0.865       0.030             0.37 (53%), 0.81 (47%)    yes                                                                  
+   240620_tfa160k327_monomer_highS             1987  0.181  0.126  1.193       common 0.935     0.654   0.891       0.038 0.06 (13%), 0.47 (42%), 0.83 (45%)    yes                                                                  
+   240705_tfa160k327_monomer_highS              822  0.181  0.128  1.193       common 0.938     0.584   0.873       0.075 0.04 (16%), 0.46 (49%), 0.85 (36%)     NO E distribution differs from the others (Wasserstein 0.075 > 0.07)
+   240710_tfa160k327_monomer_highS             2239  0.185  0.133  1.673          own 0.735     0.503   0.865       0.124 0.01 (14%), 0.40 (54%), 0.82 (32%)     NO E distribution differs from the others (Wasserstein 0.121 > 0.07)
+   240718_tfa160k327_monomer_highS             1871  0.182  0.137  1.385          own 0.730     0.637   0.891       0.048 0.08 (17%), 0.49 (40%), 0.84 (43%)    yes                                                                  
+241208_tfa160k327_monomerMg2buffer              768  0.078  0.099  1.193       common 1.067     0.650   0.629       0.060                        0.63 (100%)    yes                                                                  
+      241209_tfa160k327_monomerMg2             1058  0.115  0.096  1.124          own 1.052     0.680   0.773       0.050 0.24 (12%), 0.58 (40%), 0.82 (48%)    yes                                                                  
+      241213_tfa160k327_monomerMg2              968  0.105  0.101  1.193       common 1.218     0.610   0.927       0.056 0.08 (18%), 0.53 (48%), 0.86 (34%)    yes                                                                  
+   241213_tfa160k327_monomer_noMg2             1033  0.100  0.104  1.096          own 0.980     0.673   0.811       0.047 0.29 (17%), 0.58 (31%), 0.79 (52%)    yes                                                                  
+         241219_tfa160k327_monomer             1459  0.108  0.090  1.147          own 1.238     0.662   0.803       0.008 0.11 (16%), 0.56 (40%), 0.81 (44%)    yes                                                                  
+     241219_tfa160k327_monomerMgCl              925  0.095  0.093  1.193       common 1.168     0.610   0.661       0.062 0.12 (23%), 0.57 (44%), 0.81 (33%)    yes                                                                  
+    241219_tfa160k327_monomerMgOaC              679  0.081  0.088  1.151          own 1.098     0.676   0.721       0.014             0.20 (23%), 0.73 (77%)    yes                                                                  
+   250627_tfa160k327_monomer_highS              759  0.181  0.135  1.222          own 0.818     0.639   0.915       0.060 0.12 (22%), 0.49 (34%), 0.85 (45%)    yes                                                                  
+         251022_tfa160k327_monomer             1807  0.120  0.100  1.325          own 0.790     0.609   0.859       0.040 0.07 (10%), 0.52 (53%), 0.79 (37%)    yes                                                                  
+        251022_tfa160k327_monomer2             1402  0.114  0.099  1.193       common 0.821     0.682   0.793       0.037             0.38 (31%), 0.74 (69%)    yes                                                                  
+         260108_tfa160k327_monomer             5142  0.111  0.097  1.163          own 0.992     0.673   0.859       0.026 0.17 (15%), 0.57 (41%), 0.83 (44%)    yes                                                                  
+  note: 240620_tfa160k327_monomer_highS: different laser power ratio (delta) (corrected with its own factors)
+  note: 240705_tfa160k327_monomer_highS: different laser power ratio (delta) (corrected with its own factors)
+  note: 240710_tfa160k327_monomer_highS: different laser power ratio (delta+beta) (corrected with its own factors)
+  note: 240718_tfa160k327_monomer_highS: different laser power ratio (delta+beta) (corrected with its own factors)
+  note: 241213_tfa160k327_monomerMg2: different laser power ratio (beta) (corrected with its own factors)
+  note: 241219_tfa160k327_monomer: different laser power ratio (beta) (corrected with its own factors)
+  note: 241219_tfa160k327_monomerMgCl: different laser power ratio (beta) (corrected with its own factors)
+  note: 241219_tfa160k327_monomerMgOaC: different laser power ratio (beta) (corrected with its own factors)
+  note: 250627_tfa160k327_monomer_highS: different laser power ratio (delta) (corrected with its own factors)
+  note: 251022_tfa160k327_monomer: different laser power ratio (beta) (corrected with its own factors)
+  note: 240429_tfa160k327_monomer_highS: own gamma regression not reliable (E span 0.76) -> folder median 1.19 used
+  note: 240429_tfa160k327_monomer_highS: alpha 0.144 is an outlier in its group -> group median 0.181 used
+  note: 240607_tfa160k327_monomer_highS: own gamma 1.54 differs by more than 15% from the folder median 1.19 (own value used, as requested - check this file; --gamma_mode global would use one value)
+  note: 240620_tfa160k327_monomer_highS: own gamma regression not reliable (E span 0.83) -> folder median 1.19 used
+  note: 240620_tfa160k327_monomer_highS: alpha 0.131 is an outlier in its group -> group median 0.181 used
+  note: 240705_tfa160k327_monomer_highS: own gamma regression not reliable (E span 0.88) -> folder median 1.19 used
+  note: 240710_tfa160k327_monomer_highS: own gamma 1.67 differs by more than 15% from the folder median 1.19 (own value used, as requested - check this file; --gamma_mode global would use one value)
+  note: 240718_tfa160k327_monomer_highS: own gamma 1.38 differs by more than 15% from the folder median 1.19 (own value used, as requested - check this file; --gamma_mode global would use one value)
+  note: 241208_tfa160k327_monomerMg2buffer: own gamma regression not reliable (E span 0.72) -> folder median 1.19 used
+  note: 241213_tfa160k327_monomerMg2: own gamma regression not reliable (E span 0.88) -> folder median 1.19 used
+  note: 241219_tfa160k327_monomerMgCl: own gamma regression not reliable (E span 0.86) -> folder median 1.19 used
+  note: 250627_tfa160k327_monomer_highS: alpha 0.232 is an outlier in its group -> group median 0.181 used
+  note: 251022_tfa160k327_monomer2: own gamma regression not reliable (E span 0.75) -> folder median 1.19 used
+
+15 of 17 measurements are compatible and will be merged.
+
+Model selection (Gaussian mixtures fitted to corrected E):
+  k=1  logL=  -2297.4  BIC=   4614.9  sigma=0.267  -> baseline
+  k=2  BIC=   -870.8  (gain  5485.8; means 0.41, 0.79 | fractions 0.49, 0.51) -> accepted
+  k=3  BIC=  -2337.9  (gain  1467.1; means 0.12, 0.55, 0.82 | fractions 0.14, 0.43, 0.42) -> accepted
+
+>>> merged fit: 3 FRET states from 23330 bursts
+
+  state      E  E_err  sigma  sigma_floor  fraction  fraction_err
+state1 0.1155 0.0138  0.115        0.054     0.143         0.015
+state2 0.5531 0.0111  0.154        0.100     0.435         0.017
+state3 0.8237 0.0043  0.096        0.096     0.422         0.015
+
+(E_err: bootstrap over 15 measurements incl. each measurement's correction-factor uncertainty)
+
+R0 = 51.0 +/- 2.0 A | linker donor = 20.0 A, acceptor = 22.0 A
+
+ state     E  E_err  population_pct  population_err_pct  dye_dye_R_A  residue_residue_distance_A  distance_min_A  distance_max_A                                                      note
+state1 0.116  0.014            14.3                 1.5         71.6                        75.4            71.0            80.1 E outside 0.15-0.85: distance only qualitative (Lee 2005)
+state2 0.553  0.011            43.5                 1.7         49.2                        45.3            42.6            48.0                                                          
+state3 0.824  0.004            42.2                 1.5         39.4                        29.0            26.7            31.3                                                          
+
+Population of each distance state (share of bursts in the fit):
+    29.0 A  (27-31)  ->   42.2 +/- 1.5 %   [state3]
+    45.3 A  (43-48)  ->   43.5 +/- 1.7 %   [state2]
+    75.4 A  (71-80)  ->   14.3 +/- 1.5 %   [state1]
+
+Saved residue_distances.csv and residue_distances.png
+
+MODEL-FREE RESULT (headline): pooled mean E = 0.605, median 0.663, mode 0.875; spread of the per-measurement means = 0.036 (n = 15); gamma +/- 1 SD shifts the mean by about 0.004
+
+SENSITIVITY: same bursts, widths bounded by shot noise instead of DNA standards (the headline result uses DNA standards)
+ state  E_main  E_alt    dE  pop_main  pop_alt   dpop  sigma_main  sigma_alt
+state1   0.115  0.174 0.059     0.143    0.196  0.053       0.115      0.147
+state2   0.553  0.630 0.076     0.435    0.534  0.099       0.154      0.143
+state3   0.824  0.868 0.044     0.422    0.270 -0.152       0.096      0.059
+  number of states: main 3, alternative 3
+STATE RELIABILITY FLAGS: 
+  - state1: small population (14%)
+  - state1: E moves by +0.06 with the shot noise width basis
+  - state1: E = 0.12 outside the 0.15-0.85 range, distance only qualitative
+  - state2: E moves by +0.08 with the shot noise width basis
+  - state3: width sits at the lower bound (0.096) - the data may be narrower than the bound
+  - state3: population moves by -15 points with the shot noise width basis
+
+All results are in: C:\Users\fatma\GitHub\Accurate_FRET\results\Monomer

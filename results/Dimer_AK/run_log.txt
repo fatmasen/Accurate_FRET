@@ -1,0 +1,92 @@
+
+======================================================================
+Run 2026-10-20 11:51:42 (per measurement)
+folder=C:\Users\fatma\GitHub\Accurate_FRET\data\TF_A160K327\Dimer
+
+$ C:\Users\fatma\.venv\Scripts\python.exe C:\Users\fatma\GitHub\Accurate_FRET\scripts\per_measurement.py --folder C:\Users\fatma\GitHub\Accurate_FRET\data\TF_A160K327\Dimer --out C:\Users\fatma\GitHub\Accurate_FRET\results\Dimer --n auto --R0 51.0 --R0_err 2.0 --L_D 20.0 --L_A 22.0
+10 measurement(s) in C:\Users\fatma\GitHub\Accurate_FRET\data\TF_A160K327\Dimer
+
+COMMENTS on alpha / delta (value used for the correction = the file's own APBS value; DNA-control values are from the 2023 session and only shown for comparison)
+  DNA controls: DNA11: alpha=0.151 delta=0.178; DNA20: alpha=0.120 delta=0.143; DNA5: alpha=0.165 delta=0.135
+  240429_tfa160k327_dimer_highS: alpha_file=0.135 (group highS median 0.155, REPLACED -> 0.155; vs DNA 0.120-0.165: -0.011) | delta=0.109 (group median 0.141: -0.033; vs DNA 0.135-0.178: -0.043)
+  240607_tfa160k327_dimer_highS: alpha_file=0.149 (group highS median 0.155; vs DNA 0.120-0.165: +0.004) | delta=0.124 (group median 0.141: -0.017; vs DNA 0.135-0.178: -0.028)
+  240620_tfa160k327_dimer_highS: alpha_file=0.150 (group highS median 0.155; vs DNA 0.120-0.165: +0.005) | delta=0.133 (group median 0.141: -0.008; vs DNA 0.135-0.178: -0.018)
+  240705_tfa160k327_dimer_highS: alpha_file=0.155 (group highS median 0.155; vs DNA 0.120-0.165: +0.010) | delta=0.141 (group median 0.141: +0.000; vs DNA 0.135-0.178: -0.011)
+  240710_tfa160k327_dimer_highS: alpha_file=0.158 (group highS median 0.155; vs DNA 0.120-0.165: +0.012) | delta=0.144 (group median 0.141: +0.002; vs DNA 0.135-0.178: -0.008)
+  240718_tfa160k327_dimer_highS: alpha_file=0.158 (group highS median 0.155; vs DNA 0.120-0.165: +0.013) | delta=0.150 (group median 0.141: +0.008; vs DNA 0.135-0.178: -0.002)
+  250627_tfa160k327_dimer_highS: alpha_file=0.158 (group highS median 0.155; vs DNA 0.120-0.165: +0.012) | delta=0.145 (group median 0.141: +0.004; vs DNA 0.135-0.178: -0.007)
+  251022_tfa160k327_dimer: alpha_file=0.103 (group normal median n/a (fewer than 4 files in group); vs DNA 0.120-0.165: -0.042) | delta=0.101 (group median 0.100: +0.001; vs DNA 0.135-0.178: -0.051)
+  260108_tfa160k327_dimer: alpha_file=0.105 (group normal median n/a (fewer than 4 files in group); vs DNA 0.120-0.165: -0.040) | delta=0.100 (group median 0.100: +0.000; vs DNA 0.135-0.178: -0.052)
+  260110_tfa160k327_dimer: alpha_file=0.099 (group normal median n/a (fewer than 4 files in group); vs DNA 0.120-0.165: -0.047) | delta=0.094 (group median 0.100: -0.006; vs DNA 0.135-0.178: -0.058)
+
+Common gamma = 1.26 +/- 0.04  (fallback for files without a reliable own regression: median of 4 of 10 reliable files in this folder)
+  gamma mode: each file uses the gamma of its OWN apbs regression when that is reliable
+  per construct: TF_A160K327: 1.25 (n=15); TF_A230A297: 1.41 (n=13); TF_E96A160: 1.09 (n=25); TF_E96A230: 1.08 (n=10); TF_T91A230: 0.89 (n=9)
+
+Width lower bound = max( photon shot noise sqrt(E(1-E)/N) with N = 135 photons, DNA-standard table 'dna_sigma_floor.csv' )  [basis: DNA standards]
+
+PER-MEASUREMENT RESULTS (each corrected with its own reference)
+
+                  measurement  selected_bursts  alpha  delta  gamma gamma_source  beta  E_median  E_mode  W1_to_pool                 states merged reason
+240429_tfa160k327_dimer_highS             3517  0.155  0.109  1.319          own 0.811     0.782   0.835       0.017 0.32 (21%), 0.80 (79%)    yes       
+240607_tfa160k327_dimer_highS             1524  0.149  0.124  1.257       common 0.708     0.814   0.881       0.019 0.38 (23%), 0.83 (77%)    yes       
+240620_tfa160k327_dimer_highS             3594  0.150  0.133  1.257       common 0.722     0.810   0.871       0.013 0.36 (24%), 0.83 (76%)    yes       
+240705_tfa160k327_dimer_highS             1478  0.155  0.141  1.257       common 0.627     0.819   0.879       0.024 0.35 (25%), 0.84 (75%)    yes       
+240710_tfa160k327_dimer_highS             2201  0.158  0.144  1.257       common 0.641     0.781   0.869       0.025 0.36 (28%), 0.81 (72%)    yes       
+240718_tfa160k327_dimer_highS             1940  0.158  0.150  1.257       common 0.621     0.797   0.857       0.010 0.36 (26%), 0.82 (74%)    yes       
+250627_tfa160k327_dimer_highS             2225  0.158  0.145  1.257       common 0.617     0.815   0.879       0.018 0.38 (23%), 0.83 (77%)    yes       
+      251022_tfa160k327_dimer             1573  0.103  0.101  1.198          own 0.814     0.762   0.869       0.027 0.44 (31%), 0.80 (69%)    yes       
+      260108_tfa160k327_dimer             1730  0.105  0.100  1.316          own 0.816     0.765   0.837       0.034 0.40 (28%), 0.79 (72%)    yes       
+      260110_tfa160k327_dimer             1902  0.099  0.094  1.160          own 0.850     0.823   0.885       0.042 0.48 (26%), 0.84 (74%)    yes       
+  note: 240429_tfa160k327_dimer_highS: different laser power ratio (delta) (corrected with its own factors)
+  note: 240718_tfa160k327_dimer_highS: different laser power ratio (delta) (corrected with its own factors)
+  note: 251022_tfa160k327_dimer: different laser power ratio (delta) (corrected with its own factors)
+  note: 260108_tfa160k327_dimer: different laser power ratio (delta) (corrected with its own factors)
+  note: 260110_tfa160k327_dimer: different laser power ratio (delta+beta) (corrected with its own factors)
+  note: 240429_tfa160k327_dimer_highS: alpha 0.135 is an outlier in its group -> group median 0.155 used
+  note: 240607_tfa160k327_dimer_highS: own gamma regression not reliable (E span 0.67) -> folder median 1.26 used
+  note: 240620_tfa160k327_dimer_highS: own gamma regression not reliable (E span 0.71) -> folder median 1.26 used
+  note: 240705_tfa160k327_dimer_highS: own gamma regression not reliable (E span 0.69) -> folder median 1.26 used
+  note: 240710_tfa160k327_dimer_highS: own gamma regression not reliable (E span 0.71) -> folder median 1.26 used
+  note: 240718_tfa160k327_dimer_highS: own gamma regression not reliable (E span 0.70) -> folder median 1.26 used
+  note: 250627_tfa160k327_dimer_highS: own gamma regression not reliable (E span 0.67) -> folder median 1.26 used
+
+10 of 10 measurements are compatible and will be merged.
+
+Model selection (Gaussian mixtures fitted to corrected E):
+  k=1  logL=   -325.1  BIC=    670.2  sigma=0.246  -> baseline
+  k=2  BIC= -14434.7  (gain 15104.9; means 0.38, 0.82 | fractions 0.25, 0.75) -> accepted
+  k=3  BIC= -15895.1  (means -0.01, 0.49, 0.82 | fractions 0.05, 0.21, 0.73) -> skipped: component too small (<0.1) or too close (<0.15 in E)
+
+>>> merged fit: 2 FRET states from 21684 bursts
+
+  state      E  E_err  sigma  sigma_floor  fraction  fraction_err
+state1 0.3813 0.0140  0.267        0.085     0.253          0.01
+state2 0.8194 0.0061  0.097        0.097     0.747          0.01
+
+(E_err: bootstrap over 10 measurements incl. each measurement's correction-factor uncertainty)
+
+R0 = 51.0 +/- 2.0 A | linker donor = 20.0 A, acceptor = 22.0 A
+
+ state     E  E_err  population_pct  population_err_pct  dye_dye_R_A  residue_residue_distance_A  distance_min_A  distance_max_A note
+state1 0.381  0.014            25.3                 1.0         55.3                        54.6            51.6            57.7     
+state2 0.819  0.006            74.7                 1.0         39.6                        29.3            26.9            31.7     
+
+Population of each distance state (share of bursts in the fit):
+    29.3 A  (27-32)  ->   74.7 +/- 1.0 %   [state2]
+    54.6 A  (52-58)  ->   25.3 +/- 1.0 %   [state1]
+
+Saved residue_distances.csv and residue_distances.png
+
+MODEL-FREE RESULT (headline): pooled mean E = 0.708, median 0.797, mode 0.859; spread of the per-measurement means = 0.021 (n = 10); gamma +/- 1 SD shifts the mean by about 0.004
+
+SENSITIVITY: same bursts, widths bounded by shot noise instead of DNA standards (the headline result uses DNA standards)
+ state  E_main  E_alt    dE  pop_main  pop_alt   dpop  sigma_main  sigma_alt
+state1   0.381  0.448 0.067     0.253    0.325  0.071       0.267      0.272
+state2   0.819  0.833 0.014     0.747    0.675 -0.071       0.097      0.075
+  number of states: main 2, alternative 2
+STATE RELIABILITY FLAGS: 
+  - state1: E moves by +0.07 with the shot noise width basis
+  - state2: width sits at the lower bound (0.097) - the data may be narrower than the bound
+
+All results are in: C:\Users\fatma\GitHub\Accurate_FRET\results\Dimer

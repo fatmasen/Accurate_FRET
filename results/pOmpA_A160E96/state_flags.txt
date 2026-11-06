@@ -1,0 +1,2 @@
+state1: E = 0.13 outside the 0.15-0.85 range, distance only qualitative
+state3: width sits at the lower bound (0.106) - the data may be narrower than the bound

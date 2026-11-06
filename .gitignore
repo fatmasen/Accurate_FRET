@@ -2,7 +2,8 @@
 __pycache__/
 *.pyc
 data/
-results/
+results/*/merged_corrected_bursts.csv
+results/*/*.log
 structures/
 *.ptu
 *.xtc

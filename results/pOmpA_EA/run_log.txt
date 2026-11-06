@@ -1,0 +1,74 @@
+
+======================================================================
+Run 2026-10-20 13:01:03 (per measurement)
+folder=C:\Users\fatma\GitHub\Accurate_FRET\data\TF_E96A230\pOmpA
+
+$ C:\Users\fatma\.venv\Scripts\python.exe C:\Users\fatma\GitHub\Accurate_FRET\scripts\per_measurement.py --folder C:\Users\fatma\GitHub\Accurate_FRET\data\TF_E96A230\pOmpA --out C:\Users\fatma\GitHub\Accurate_FRET\results\pOmpA --n auto --R0 51.0 --R0_err 2.0 --L_D 20.0 --L_A 22.0
+4 measurement(s) in C:\Users\fatma\GitHub\Accurate_FRET\data\TF_E96A230\pOmpA
+
+COMMENTS on alpha / delta (value used for the correction = the file's own APBS value; DNA-control values are from the 2023 session and only shown for comparison)
+  DNA controls: DNA11: alpha=0.151 delta=0.178; DNA20: alpha=0.120 delta=0.143; DNA5: alpha=0.165 delta=0.135
+  240420_TFa230e96_client_highS: alpha_file=0.126 (group highS median n/a (fewer than 4 files in group); vs DNA 0.120-0.165: -0.020) | delta=0.106 (group median 0.106: +0.000; vs DNA 0.135-0.178: -0.046)
+  250214_tfa230e96_client: alpha_file=0.314 (group normal median n/a (fewer than 4 files in group); vs DNA 0.120-0.165: +0.169) | delta=0.087 (group median 0.087: +0.000; vs DNA 0.135-0.178: -0.065)
+  251016_tfA230e96_client: alpha_file=0.097 (group normal median n/a (fewer than 4 files in group); vs DNA 0.120-0.165: -0.049) | delta=0.096 (group median 0.087: +0.009; vs DNA 0.135-0.178: -0.056)
+  260207_tfa230e96_client: alpha_file=0.093 (group normal median n/a (fewer than 4 files in group); vs DNA 0.120-0.165: -0.053) | delta=0.085 (group median 0.087: -0.002; vs DNA 0.135-0.178: -0.067)
+
+Common gamma = 1.33 +/- 0.04  (fallback for files without a reliable own regression: median of 3 of 4 reliable files in this folder)
+  gamma mode: each file uses the gamma of its OWN apbs regression when that is reliable
+  per construct: TF_A160K327: 1.25 (n=15); TF_A230A297: 1.41 (n=13); TF_E96A160: 1.09 (n=25); TF_E96A230: 1.08 (n=10); TF_T91A230: 0.89 (n=9)
+
+Width lower bound = max( photon shot noise sqrt(E(1-E)/N) with N = 120 photons, DNA-standard table 'dna_sigma_floor.csv' )  [basis: DNA standards]
+
+PER-MEASUREMENT RESULTS (each corrected with its own reference)
+
+                  measurement  selected_bursts  alpha  delta  gamma gamma_source  beta  E_median  E_mode  W1_to_pool                             states merged                                                            reason
+240420_TFa230e96_client_highS             1578  0.126  0.106  1.330          own 0.715     0.154   0.069       0.017 0.07 (55%), 0.38 (23%), 0.77 (21%)    yes                                                                  
+      250214_tfa230e96_client              701  0.314  0.087  1.330       common 1.128     0.001  -0.055       0.214            -0.03 (66%), 0.29 (34%)     NO E distribution differs from the others (Wasserstein 0.201 > 0.07)
+      251016_tfA230e96_client              804  0.097  0.096  1.426          own 0.946     0.118   0.079       0.073             0.08 (65%), 0.49 (35%)     NO E distribution differs from the others (Wasserstein 0.073 > 0.07)
+      260207_tfa230e96_client             1883  0.093  0.085  1.242          own 1.133     0.148   0.093       0.017 0.08 (59%), 0.41 (23%), 0.78 (19%)    yes                                                                  
+  note: 240420_TFa230e96_client_highS: different laser power ratio (delta+beta) (corrected with its own factors)
+  note: 250214_tfa230e96_client: own gamma regression not reliable (E span 0.75) -> folder median 1.33 used
+
+2 of 4 measurements are compatible and will be merged.
+
+Model selection (Gaussian mixtures fitted to corrected E):
+  k=1  logL=   -705.1  BIC=   1426.5  sigma=0.297  -> baseline
+  k=2  BIC=  -1134.5  (gain  2561.0; means 0.08, 0.62 | fractions 0.61, 0.39) -> accepted
+  k=3  BIC=  -1332.1  (gain   197.5; means 0.08, 0.41, 0.78 | fractions 0.57, 0.23, 0.19) -> accepted
+
+>>> merged fit: 3 FRET states from 3461 bursts
+
+  state      E  E_err  sigma  sigma_floor  fraction  fraction_err
+state1 0.0788 0.0068  0.072        0.046     0.575         0.015
+state2 0.4113 0.0147  0.180        0.088     0.232         0.004
+state3 0.7800 0.0069  0.105        0.105     0.194         0.012
+
+(E_err: bootstrap over 2 measurements incl. each measurement's correction-factor uncertainty)
+
+R0 = 51.0 +/- 2.0 A | linker donor = 20.0 A, acceptor = 22.0 A
+
+ state     E  E_err  population_pct  population_err_pct  dye_dye_R_A  residue_residue_distance_A  distance_min_A  distance_max_A                                                      note
+state1 0.079  0.007            57.5                 1.5         76.8                        81.1            77.0            85.3 E outside 0.15-0.85: distance only qualitative (Lee 2005)
+state2 0.411  0.015            23.2                 0.4         54.1                        52.9            49.9            56.0                                                          
+state3 0.780  0.007            19.4                 1.2         41.3                        32.2            29.7            34.6                                                          
+
+Population of each distance state (share of bursts in the fit):
+    32.2 A  (30-35)  ->   19.4 +/- 1.2 %   [state3]
+    52.9 A  (50-56)  ->   23.2 +/- 0.4 %   [state2]
+    81.1 A  (77-85)  ->   57.5 +/- 1.5 %   [state1]
+
+Saved residue_distances.csv and residue_distances.png
+
+MODEL-FREE RESULT (headline): pooled mean E = 0.292, median 0.151, mode 0.085; spread of the per-measurement means = 0.003 (n = 2); gamma +/- 1 SD shifts the mean by about 0.011
+
+SENSITIVITY: same bursts, widths bounded by shot noise instead of DNA standards (the headline result uses DNA standards)
+ state  E_main  E_alt    dE  pop_main  pop_alt   dpop  sigma_main  sigma_alt
+state1   0.079  0.080 0.001     0.575    0.583  0.008       0.072      0.073
+state2   0.411  0.461 0.050     0.232    0.264  0.033       0.180      0.192
+state3   0.780  0.806 0.026     0.194    0.153 -0.041       0.105      0.083
+  number of states: main 3, alternative 3
+STATE RELIABILITY FLAGS: 
+  - state1: E = 0.08 outside the 0.15-0.85 range, distance only qualitative
+  - state3: width sits at the lower bound (0.105) - the data may be narrower than the bound
+
+All results are in: C:\Users\fatma\GitHub\Accurate_FRET\results\pOmpA

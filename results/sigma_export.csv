@@ -1,0 +1,329 @@
+kind,dataset,measurement,state,E,sigma,fraction,sigma_shot_noise,n_bursts,note,sigma_floor
+DNA_standard,DNA standards,DNA11,single,0.5454,0.0998,1.0,0.0391,1709,"apparent E, S 0.4-0.8, >= 200 photons",
+DNA_standard,DNA standards,DNA20,single,0.2872,0.0769,1.0,0.0355,2216,"apparent E, S 0.4-0.8, >= 200 photons",
+DNA_standard,DNA standards,DNA5,single,0.7474,0.1104,1.0,0.0337,1558,"apparent E, S 0.4-0.8, >= 200 photons",
+protein_merged,Dimer_A160E96,all included,state1,0.2463,0.1279,0.7732,0.0382,15445,width basis: DNA table + shot noise,0.0733
+protein_merged,Dimer_A160E96,all included,state2,0.7658,0.1147,0.2268,0.0376,15445,width basis: DNA table + shot noise,0.1072
+protein_measurement,Dimer_A160E96,240502_tfa160e96_dimer_highS,model-free,0.3447,0.2248,1.0,,3037,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Dimer_A160E96,240502_tfa160e96_dimer_highS,state1,0.2756,0.1396,0.8714,,3037,BIC states,0.0761
+protein_measurement,Dimer_A160E96,240502_tfa160e96_dimer_highS,state2,0.8127,0.0987,0.1286,,3037,BIC states,0.0987
+protein_measurement,Dimer_A160E96,250312_tfa160e96_dimer,model-free,0.378,0.2529,1.0,,973,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Dimer_A160E96,250312_tfa160e96_dimer,state1,0.2477,0.1176,0.7487,,973,BIC states,0.0735
+protein_measurement,Dimer_A160E96,250312_tfa160e96_dimer,state2,0.7661,0.1103,0.2513,,973,BIC states,0.1071
+protein_measurement,Dimer_A160E96,250326_tfa160e96_dimer,model-free,0.3247,0.2365,1.0,,4427,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Dimer_A160E96,250326_tfa160e96_dimer,state1,0.2257,0.1216,0.8075,,4427,BIC states,0.0712
+protein_measurement,Dimer_A160E96,250326_tfa160e96_dimer,state2,0.7403,0.1214,0.1925,,4427,BIC states,0.1097
+protein_measurement,Dimer_A160E96,250418_tfa160e96_dimer,model-free,0.3933,0.2761,1.0,,1514,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Dimer_A160E96,250418_tfa160e96_dimer,state1,0.2,0.1025,0.6289,,1514,BIC states,0.0681
+protein_measurement,Dimer_A160E96,250418_tfa160e96_dimer,state2,0.7209,0.1304,0.3711,,1514,BIC states,0.1087
+protein_measurement,Dimer_A160E96,250620_tfa160e96_dimer,model-free,0.3851,0.2645,1.0,,1059,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Dimer_A160E96,250620_tfa160e96_dimer,state1,0.2566,0.145,0.757,,1059,BIC states,0.0743
+protein_measurement,Dimer_A160E96,250620_tfa160e96_dimer,state2,0.7855,0.1039,0.243,,1059,BIC states,0.1039
+protein_measurement,Dimer_A160E96,260116_tfa160e96_dimer,model-free,0.4221,0.2756,1.0,,2506,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Dimer_A160E96,260116_tfa160e96_dimer,state1,0.2502,0.1215,0.6762,,2506,BIC states,0.0737
+protein_measurement,Dimer_A160E96,260116_tfa160e96_dimer,state2,0.7811,0.1149,0.3238,,2506,BIC states,0.1046
+protein_measurement,Dimer_A160E96,260924_tfa160e96_dimer,model-free,0.3684,0.2397,1.0,,1929,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Dimer_A160E96,260924_tfa160e96_dimer,state1,0.2612,0.126,0.7868,,1929,BIC states,0.0748
+protein_measurement,Dimer_A160E96,260924_tfa160e96_dimer,state2,0.7638,0.1106,0.2132,,1929,BIC states,0.1075
+protein_merged,Dimer_AA,all included,state1,0.3675,0.1693,0.8937,0.0452,9316,width basis: DNA table + shot noise,0.0842
+protein_merged,Dimer_AA,all included,state2,0.8113,0.099,0.1063,0.0366,9316,width basis: DNA table + shot noise,0.099
+protein_measurement,Dimer_AA,240410_TFa230a297_dimer_highS,model-free,0.4544,0.2324,1.0,,1180,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Dimer_AA,240410_TFa230a297_dimer_highS,state1,0.3792,0.1794,0.8226,,1180,BIC states,0.0852
+protein_measurement,Dimer_AA,240410_TFa230a297_dimer_highS,state2,0.8027,0.1007,0.1774,,1180,BIC states,0.1007
+protein_measurement,Dimer_AA,250216_tfa230a297_dimer,model-free,0.4173,0.1975,1.0,,3421,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Dimer_AA,250216_tfa230a297_dimer,state1,0.4173,0.1975,1.0,,3421,BIC states,0.0886
+protein_measurement,Dimer_AA,250216_tfa230a297_dimerMg2,model-free,0.4299,0.2009,1.0,,1043,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Dimer_AA,250216_tfa230a297_dimerMg2,state1,0.3819,0.1462,0.8991,,1043,BIC states,0.0855
+protein_measurement,Dimer_AA,250216_tfa230a297_dimerMg2,state2,0.8578,0.0884,0.1009,,1043,BIC states,0.0884
+protein_measurement,Dimer_AA,250216_tfa230a297_dimer_noMg2,model-free,0.4519,0.2069,1.0,,1220,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Dimer_AA,250216_tfa230a297_dimer_noMg2,state1,0.4519,0.2069,1.0,,1220,BIC states,0.0917
+protein_measurement,Dimer_AA,260204_tfa230a297_dimer,model-free,0.3669,0.2214,1.0,,2452,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Dimer_AA,260204_tfa230a297_dimer,state1,0.2923,0.1588,0.8258,,2452,BIC states,0.0775
+protein_measurement,Dimer_AA,260204_tfa230a297_dimer,state2,0.7205,0.1087,0.1742,,2452,BIC states,0.1087
+protein_merged,Dimer_AK,all included,state1,0.3813,0.2666,0.2534,0.0418,21684,width basis: DNA table + shot noise,0.0854
+protein_merged,Dimer_AK,all included,state2,0.8194,0.0973,0.7466,0.0331,21684,width basis: DNA table + shot noise,0.0973
+protein_measurement,Dimer_AK,240429_tfa160k327_dimer_highS,model-free,0.696,0.244,1.0,,3517,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Dimer_AK,240429_tfa160k327_dimer_highS,state1,0.3223,0.2668,0.2121,,3517,BIC states,0.0801
+protein_measurement,Dimer_AK,240429_tfa160k327_dimer_highS,state2,0.7966,0.1018,0.7879,,3517,BIC states,0.1018
+protein_measurement,Dimer_AK,240607_tfa160k327_dimer_highS,model-free,0.726,0.2436,1.0,,1524,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Dimer_AK,240607_tfa160k327_dimer_highS,state1,0.3805,0.2698,0.2349,,1524,BIC states,0.0853
+protein_measurement,Dimer_AK,240607_tfa160k327_dimer_highS,state2,0.8321,0.0946,0.7651,,1524,BIC states,0.0946
+protein_measurement,Dimer_AK,240620_tfa160k327_dimer_highS,model-free,0.717,0.2498,1.0,,3594,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Dimer_AK,240620_tfa160k327_dimer_highS,state1,0.3584,0.2663,0.2371,,3594,BIC states,0.0834
+protein_measurement,Dimer_AK,240620_tfa160k327_dimer_highS,state2,0.8285,0.0954,0.7629,,3594,BIC states,0.0954
+protein_measurement,Dimer_AK,240705_tfa160k327_dimer_highS,model-free,0.7193,0.2612,1.0,,1478,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Dimer_AK,240705_tfa160k327_dimer_highS,state1,0.3538,0.2702,0.2516,,1478,BIC states,0.083
+protein_measurement,Dimer_AK,240705_tfa160k327_dimer_highS,state2,0.8421,0.0923,0.7484,,1478,BIC states,0.0923
+protein_measurement,Dimer_AK,240710_tfa160k327_dimer_highS,model-free,0.6862,0.2593,1.0,,2201,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Dimer_AK,240710_tfa160k327_dimer_highS,state1,0.3632,0.266,0.2828,,2201,BIC states,0.0838
+protein_measurement,Dimer_AK,240710_tfa160k327_dimer_highS,state2,0.8136,0.0985,0.7172,,2201,BIC states,0.0985
+protein_measurement,Dimer_AK,240718_tfa160k327_dimer_highS,model-free,0.6992,0.2566,1.0,,1940,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Dimer_AK,240718_tfa160k327_dimer_highS,state1,0.3602,0.2725,0.2612,,1940,BIC states,0.0835
+protein_measurement,Dimer_AK,240718_tfa160k327_dimer_highS,state2,0.8191,0.0974,0.7388,,1940,BIC states,0.0974
+protein_measurement,Dimer_AK,250627_tfa160k327_dimer_highS,model-free,0.7247,0.2425,1.0,,2225,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Dimer_AK,250627_tfa160k327_dimer_highS,state1,0.3793,0.2689,0.2323,,2225,BIC states,0.0852
+protein_measurement,Dimer_AK,250627_tfa160k327_dimer_highS,state2,0.8292,0.0952,0.7677,,2225,BIC states,0.0952
+protein_measurement,Dimer_AK,251022_tfa160k327_dimer,model-free,0.6885,0.2368,1.0,,1573,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Dimer_AK,251022_tfa160k327_dimer,state1,0.4372,0.2559,0.313,,1573,BIC states,0.0904
+protein_measurement,Dimer_AK,251022_tfa160k327_dimer,state2,0.8031,0.1006,0.687,,1573,BIC states,0.1006
+protein_measurement,Dimer_AK,260108_tfa160k327_dimer,model-free,0.6843,0.2315,1.0,,1730,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Dimer_AK,260108_tfa160k327_dimer,state1,0.3967,0.2393,0.2758,,1730,BIC states,0.0868
+protein_measurement,Dimer_AK,260108_tfa160k327_dimer,state2,0.7939,0.1024,0.7242,,1730,BIC states,0.1024
+protein_measurement,Dimer_AK,260110_tfa160k327_dimer,model-free,0.7465,0.2151,1.0,,1902,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Dimer_AK,260110_tfa160k327_dimer,state1,0.4805,0.2478,0.2625,,1902,BIC states,0.0943
+protein_measurement,Dimer_AK,260110_tfa160k327_dimer,state2,0.8411,0.0925,0.7375,,1902,BIC states,0.0925
+protein_merged,Dimer_AT,all included,state1,0.1977,0.1436,0.7188,0.0332,5187,width basis: DNA table + shot noise,0.0678
+protein_merged,Dimer_AT,all included,state2,0.6322,0.1473,0.2812,0.0402,5187,width basis: DNA table + shot noise,0.1043
+protein_measurement,Dimer_AT,240425_tfa230t91_dmr_highS,model-free,0.3047,0.2383,1.0,,1411,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Dimer_AT,240425_tfa230t91_dmr_highS,state1,0.2,0.1428,0.7678,,1411,BIC states,0.0681
+protein_measurement,Dimer_AT,240425_tfa230t91_dmr_highS,state2,0.651,0.1445,0.2322,,1411,BIC states,0.1052
+protein_measurement,Dimer_AT,260213_tfa230t91_dimer,model-free,0.3256,0.2446,1.0,,3776,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Dimer_AT,260213_tfa230t91_dimer,state1,0.1969,0.144,0.7006,,3776,BIC states,0.0677
+protein_measurement,Dimer_AT,260213_tfa230t91_dimer,state2,0.6266,0.1479,0.2994,,3776,BIC states,0.104
+protein_merged,Dimer_EA,all included,state1,0.119,0.09,0.5296,0.0293,8789,width basis: DNA table + shot noise,0.0551
+protein_merged,Dimer_EA,all included,state2,0.4907,0.1722,0.308,0.0453,8789,width basis: DNA table + shot noise,0.0952
+protein_merged,Dimer_EA,all included,state3,0.797,0.1018,0.1624,0.0364,8789,width basis: DNA table + shot noise,0.1018
+protein_measurement,Dimer_EA,240420_TFa230e96_dimer_highS,model-free,0.3772,0.3081,1.0,,1794,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Dimer_EA,240420_TFa230e96_dimer_highS,state1,0.1032,0.0894,0.4563,,1794,BIC states,0.0518
+protein_measurement,Dimer_EA,240420_TFa230e96_dimer_highS,state2,0.435,0.1703,0.2841,,1794,BIC states,0.0902
+protein_measurement,Dimer_EA,240420_TFa230e96_dimer_highS,state3,0.7954,0.1021,0.2596,,1794,BIC states,0.1021
+protein_measurement,Dimer_EA,250214_tfa230e96_dimer,model-free,0.3317,0.2711,1.0,,3448,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Dimer_EA,250214_tfa230e96_dimer,state1,0.1278,0.0885,0.5518,,3448,BIC states,0.0568
+protein_measurement,Dimer_EA,250214_tfa230e96_dimer,state2,0.5034,0.1696,0.3249,,3448,BIC states,0.0963
+protein_measurement,Dimer_EA,250214_tfa230e96_dimer,state3,0.7912,0.1028,0.1233,,3448,BIC states,0.1028
+protein_measurement,Dimer_EA,251016_tfA230e96_dimer,model-free,0.3539,0.2744,1.0,,963,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Dimer_EA,251016_tfA230e96_dimer,state1,0.1403,0.1023,0.5455,,963,BIC states,0.0591
+protein_measurement,Dimer_EA,251016_tfA230e96_dimer,state2,0.6103,0.1806,0.4545,,963,BIC states,0.1032
+protein_measurement,Dimer_EA,260207_tfa230e96_dimer,model-free,0.3323,0.2915,1.0,,2584,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Dimer_EA,260207_tfa230e96_dimer,state1,0.1118,0.0883,0.5537,,2584,BIC states,0.0536
+protein_measurement,Dimer_EA,260207_tfa230e96_dimer,state2,0.4991,0.1762,0.294,,2584,BIC states,0.0959
+protein_measurement,Dimer_EA,260207_tfa230e96_dimer,state3,0.8121,0.0988,0.1523,,2584,BIC states,0.0988
+protein_merged,Monomer_A160E96,all included,state1,0.1523,0.107,0.162,0.0324,20607,width basis: DNA table + shot noise,0.0612
+protein_merged,Monomer_A160E96,all included,state2,0.5353,0.1569,0.3268,0.045,20607,width basis: DNA table + shot noise,0.0991
+protein_merged,Monomer_A160E96,all included,state3,0.8399,0.0928,0.5111,0.0331,20607,width basis: DNA table + shot noise,0.0928
+protein_measurement,Monomer_A160E96,240502_tfa160e96_monomer_highS,model-free,0.664,0.2861,1.0,,1378,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Monomer_A160E96,240502_tfa160e96_monomer_highS,state1,0.1905,0.1322,0.2083,,1378,BIC states,0.0668
+protein_measurement,Monomer_A160E96,240502_tfa160e96_monomer_highS,state2,0.6097,0.1373,0.2449,,1378,BIC states,0.1032
+protein_measurement,Monomer_A160E96,240502_tfa160e96_monomer_highS,state3,0.8686,0.0855,0.5469,,1378,BIC states,0.0855
+protein_measurement,Monomer_A160E96,250312_tfa160e96_monomer,model-free,0.6116,0.276,1.0,,1086,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Monomer_A160E96,250312_tfa160e96_monomer,state1,0.1269,0.085,0.1478,,1086,BIC states,0.0567
+protein_measurement,Monomer_A160E96,250312_tfa160e96_monomer,state2,0.4637,0.1495,0.2869,,1086,BIC states,0.0928
+protein_measurement,Monomer_A160E96,250312_tfa160e96_monomer,state3,0.8134,0.0986,0.5653,,1086,BIC states,0.0986
+protein_measurement,Monomer_A160E96,250312_tfa160e96_monomer_nomg2,model-free,0.585,0.2883,1.0,,1817,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Monomer_A160E96,250312_tfa160e96_monomer_nomg2,state1,0.1588,0.1133,0.2007,,1817,BIC states,0.0622
+protein_measurement,Monomer_A160E96,250312_tfa160e96_monomer_nomg2,state2,0.5186,0.1683,0.3747,,1817,BIC states,0.0976
+protein_measurement,Monomer_A160E96,250312_tfa160e96_monomer_nomg2,state3,0.845,0.0916,0.4246,,1817,BIC states,0.0916
+protein_measurement,Monomer_A160E96,250326_tfa160e96_monomer,model-free,0.611,0.2829,1.0,,2042,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Monomer_A160E96,250326_tfa160e96_monomer,state1,0.1316,0.102,0.1609,,2042,BIC states,0.0575
+protein_measurement,Monomer_A160E96,250326_tfa160e96_monomer,state2,0.4897,0.1574,0.3112,,2042,BIC states,0.0951
+protein_measurement,Monomer_A160E96,250326_tfa160e96_monomer,state3,0.8287,0.0953,0.5279,,2042,BIC states,0.0953
+protein_measurement,Monomer_A160E96,250620_tfa160e96_monomer,model-free,0.664,0.2564,1.0,,1275,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Monomer_A160E96,250620_tfa160e96_monomer,state1,0.2756,0.1744,0.2197,,1275,BIC states,0.0761
+protein_measurement,Monomer_A160E96,250620_tfa160e96_monomer,state2,0.5964,0.1025,0.2311,,1275,BIC states,0.1025
+protein_measurement,Monomer_A160E96,250620_tfa160e96_monomer,state3,0.8478,0.0909,0.5493,,1275,BIC states,0.0909
+protein_measurement,Monomer_A160E96,260116_tfa160e96_monomer,model-free,0.6635,0.2672,1.0,,2479,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Monomer_A160E96,260116_tfa160e96_monomer,state1,0.2129,0.1347,0.1853,,2479,BIC states,0.0697
+protein_measurement,Monomer_A160E96,260116_tfa160e96_monomer,state2,0.5946,0.1334,0.2909,,2479,BIC states,0.1025
+protein_measurement,Monomer_A160E96,260116_tfa160e96_monomer,state3,0.8612,0.0875,0.5238,,2479,BIC states,0.0875
+protein_measurement,Monomer_A160E96,260423_tfa160e96_monomer,model-free,0.6152,0.2768,1.0,,3045,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Monomer_A160E96,260423_tfa160e96_monomer,state1,0.1723,0.1064,0.1945,,3045,BIC states,0.0643
+protein_measurement,Monomer_A160E96,260423_tfa160e96_monomer,state2,0.5618,0.1493,0.3507,,3045,BIC states,0.1008
+protein_measurement,Monomer_A160E96,260423_tfa160e96_monomer,state3,0.8456,0.0914,0.4548,,3045,BIC states,0.0914
+protein_measurement,Monomer_A160E96,260801_tfa160e96_monomer,model-free,0.6028,0.2818,1.0,,2378,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Monomer_A160E96,260801_tfa160e96_monomer,state1,0.125,0.0927,0.1569,,2378,BIC states,0.0563
+protein_measurement,Monomer_A160E96,260801_tfa160e96_monomer,state2,0.4928,0.1624,0.3395,,2378,BIC states,0.0953
+protein_measurement,Monomer_A160E96,260801_tfa160e96_monomer,state3,0.8258,0.096,0.5036,,2378,BIC states,0.096
+protein_measurement,Monomer_A160E96,260811_tfa160e96_monomer,model-free,0.6225,0.2735,1.0,,2465,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Monomer_A160E96,260811_tfa160e96_monomer,state1,0.1375,0.0988,0.1531,,2465,BIC states,0.0586
+protein_measurement,Monomer_A160E96,260811_tfa160e96_monomer,state2,0.5085,0.1441,0.3131,,2465,BIC states,0.0967
+protein_measurement,Monomer_A160E96,260811_tfa160e96_monomer,state3,0.8286,0.0954,0.5338,,2465,BIC states,0.0954
+protein_measurement,Monomer_A160E96,260812_tfa160e96_monomer,model-free,0.658,0.2588,1.0,,2642,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Monomer_A160E96,260812_tfa160e96_monomer,state1,0.131,0.0922,0.1129,,2642,BIC states,0.0574
+protein_measurement,Monomer_A160E96,260812_tfa160e96_monomer,state2,0.5394,0.1642,0.3217,,2642,BIC states,0.0995
+protein_measurement,Monomer_A160E96,260812_tfa160e96_monomer,state3,0.8307,0.0949,0.5654,,2642,BIC states,0.0949
+protein_merged,Monomer_AA,all included,state1,0.0396,0.0573,0.1367,0.018,8079,width basis: DNA table + shot noise,0.0332
+protein_merged,Monomer_AA,all included,state2,0.3515,0.1779,0.582,0.044,8079,width basis: DNA table + shot noise,0.0828
+protein_merged,Monomer_AA,all included,state3,0.8103,0.0992,0.2814,0.0361,8079,width basis: DNA table + shot noise,0.0992
+protein_measurement,Monomer_AA,240410_TFa230a297_monomer_highS,model-free,0.429,0.3073,1.0,,3146,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Monomer_AA,240410_TFa230a297_monomer_highS,state1,0.0824,0.0833,0.2703,,3146,BIC states,0.0468
+protein_measurement,Monomer_AA,240410_TFa230a297_monomer_highS,state2,0.3758,0.1782,0.415,,3146,BIC states,0.0849
+protein_measurement,Monomer_AA,240410_TFa230a297_monomer_highS,state3,0.797,0.1018,0.3147,,3146,BIC states,0.1018
+protein_measurement,Monomer_AA,250216_tfa230a297_monomerMg2,model-free,0.4881,0.25,1.0,,969,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Monomer_AA,250216_tfa230a297_monomerMg2,state1,0.3717,0.1585,0.7549,,969,BIC states,0.0846
+protein_measurement,Monomer_AA,250216_tfa230a297_monomerMg2,state2,0.8465,0.0912,0.2451,,969,BIC states,0.0912
+protein_measurement,Monomer_AA,250216_tfa230a297_monomernoMg,model-free,0.4051,0.2822,1.0,,993,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Monomer_AA,250216_tfa230a297_monomernoMg,state1,0.028,0.0456,0.1147,,993,BIC states,0.0281
+protein_measurement,Monomer_AA,250216_tfa230a297_monomernoMg,state2,0.3365,0.1715,0.6752,,993,BIC states,0.0814
+protein_measurement,Monomer_AA,250216_tfa230a297_monomernoMg,state3,0.8312,0.0948,0.2101,,993,BIC states,0.0948
+protein_measurement,Monomer_AA,260129_tfa230a297_monomer,model-free,0.4879,0.308,1.0,,1022,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Monomer_AA,260129_tfa230a297_monomer,state1,0.0541,0.0653,0.1799,,1022,BIC states,0.0385
+protein_measurement,Monomer_AA,260129_tfa230a297_monomer,state2,0.4511,0.1987,0.5508,,1022,BIC states,0.0916
+protein_measurement,Monomer_AA,260129_tfa230a297_monomer,state3,0.8531,0.0896,0.2693,,1022,BIC states,0.0896
+protein_measurement,Monomer_AA,260204_tfa230a297_monomer,model-free,0.4181,0.2856,1.0,,1949,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Monomer_AA,260204_tfa230a297_monomer,state1,0.0188,0.0503,0.1181,,1949,BIC states,0.0231
+protein_measurement,Monomer_AA,260204_tfa230a297_monomer,state2,0.3129,0.1598,0.5735,,1949,BIC states,0.0793
+protein_measurement,Monomer_AA,260204_tfa230a297_monomer,state3,0.7665,0.1138,0.3085,,1949,BIC states,0.107
+protein_merged,Monomer_AK,all included,state1,0.1155,0.1151,0.1432,0.0284,23330,width basis: DNA table + shot noise,0.0544
+protein_merged,Monomer_AK,all included,state2,0.5531,0.1535,0.4348,0.0441,23330,width basis: DNA table + shot noise,0.1004
+protein_merged,Monomer_AK,all included,state3,0.8237,0.0964,0.422,0.0338,23330,width basis: DNA table + shot noise,0.0964
+protein_measurement,Monomer_AK,240429_tfa160k327_monomer_highS,model-free,0.6591,0.254,1.0,,1874,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Monomer_AK,240429_tfa160k327_monomer_highS,state1,0.4518,0.2462,0.4337,,1874,BIC states,0.0917
+protein_measurement,Monomer_AK,240429_tfa160k327_monomer_highS,state2,0.8179,0.0977,0.5663,,1874,BIC states,0.0977
+protein_measurement,Monomer_AK,240607_tfa160k327_monomer_highS,model-free,0.5787,0.2904,1.0,,1598,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Monomer_AK,240607_tfa160k327_monomer_highS,state1,0.3733,0.2448,0.532,,1598,BIC states,0.0847
+protein_measurement,Monomer_AK,240607_tfa160k327_monomer_highS,state2,0.8122,0.0988,0.468,,1598,BIC states,0.0988
+protein_measurement,Monomer_AK,240620_tfa160k327_monomer_highS,model-free,0.5774,0.2964,1.0,,1987,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Monomer_AK,240620_tfa160k327_monomer_highS,state1,0.0605,0.1001,0.1337,,1987,BIC states,0.0406
+protein_measurement,Monomer_AK,240620_tfa160k327_monomer_highS,state2,0.4728,0.1837,0.419,,1987,BIC states,0.0936
+protein_measurement,Monomer_AK,240620_tfa160k327_monomer_highS,state3,0.8299,0.0951,0.4473,,1987,BIC states,0.0951
+protein_measurement,Monomer_AK,240718_tfa160k327_monomer_highS,model-free,0.5692,0.3038,1.0,,1871,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Monomer_AK,240718_tfa160k327_monomer_highS,state1,0.0818,0.1028,0.1726,,1871,BIC states,0.0466
+protein_measurement,Monomer_AK,240718_tfa160k327_monomer_highS,state2,0.4912,0.1828,0.3964,,1871,BIC states,0.0952
+protein_measurement,Monomer_AK,240718_tfa160k327_monomer_highS,state3,0.8361,0.0937,0.431,,1871,BIC states,0.0937
+protein_measurement,Monomer_AK,241208_tfa160k327_monomerMg2buffer,model-free,0.6297,0.2064,1.0,,768,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Monomer_AK,241208_tfa160k327_monomerMg2buffer,state1,0.6297,0.2064,1.0,,768,BIC states,0.1042
+protein_measurement,Monomer_AK,241209_tfa160k327_monomerMg2,model-free,0.6496,0.2173,1.0,,1058,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Monomer_AK,241209_tfa160k327_monomerMg2,state1,0.2414,0.1622,0.1236,,1058,BIC states,0.0728
+protein_measurement,Monomer_AK,241209_tfa160k327_monomerMg2,state2,0.5774,0.1016,0.3988,,1058,BIC states,0.1016
+protein_measurement,Monomer_AK,241209_tfa160k327_monomerMg2,state3,0.8155,0.0981,0.4776,,1058,BIC states,0.0981
+protein_measurement,Monomer_AK,241213_tfa160k327_monomerMg2,model-free,0.5599,0.3013,1.0,,968,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Monomer_AK,241213_tfa160k327_monomerMg2,state1,0.0834,0.0828,0.1798,,968,BIC states,0.0471
+protein_measurement,Monomer_AK,241213_tfa160k327_monomerMg2,state2,0.5264,0.1771,0.485,,968,BIC states,0.0983
+protein_measurement,Monomer_AK,241213_tfa160k327_monomerMg2,state3,0.864,0.0867,0.3353,,968,BIC states,0.0867
+protein_measurement,Monomer_AK,241213_tfa160k327_monomer_noMg2,model-free,0.641,0.2203,1.0,,1033,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Monomer_AK,241213_tfa160k327_monomer_noMg2,state1,0.293,0.193,0.1706,,1033,BIC states,0.0775
+protein_measurement,Monomer_AK,241213_tfa160k327_monomer_noMg2,state2,0.5766,0.1016,0.3127,,1033,BIC states,0.1016
+protein_measurement,Monomer_AK,241213_tfa160k327_monomer_noMg2,state3,0.7948,0.1022,0.5167,,1033,BIC states,0.1022
+protein_measurement,Monomer_AK,241219_tfa160k327_monomer,model-free,0.5991,0.2691,1.0,,1459,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Monomer_AK,241219_tfa160k327_monomer,state1,0.1143,0.1125,0.1596,,1459,BIC states,0.0542
+protein_measurement,Monomer_AK,241219_tfa160k327_monomer,state2,0.5577,0.1443,0.3999,,1459,BIC states,0.1006
+protein_measurement,Monomer_AK,241219_tfa160k327_monomer,state3,0.8123,0.0988,0.4405,,1459,BIC states,0.0988
+protein_measurement,Monomer_AK,241219_tfa160k327_monomerMgCl,model-free,0.5456,0.2848,1.0,,925,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Monomer_AK,241219_tfa160k327_monomerMgCl,state1,0.1181,0.0988,0.231,,925,BIC states,0.0549
+protein_measurement,Monomer_AK,241219_tfa160k327_monomerMgCl,state2,0.5729,0.1524,0.4424,,925,BIC states,0.1014
+protein_measurement,Monomer_AK,241219_tfa160k327_monomerMgCl,state3,0.8111,0.099,0.3266,,925,BIC states,0.099
+protein_measurement,Monomer_AK,241219_tfa160k327_monomerMgOaC,model-free,0.6104,0.2655,1.0,,679,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Monomer_AK,241219_tfa160k327_monomerMgOaC,state1,0.2036,0.1386,0.2305,,679,BIC states,0.0685
+protein_measurement,Monomer_AK,241219_tfa160k327_monomerMgOaC,state2,0.7322,0.1464,0.7695,,679,BIC states,0.1093
+protein_measurement,Monomer_AK,250627_tfa160k327_monomer_highS,model-free,0.5683,0.3135,1.0,,759,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Monomer_AK,250627_tfa160k327_monomer_highS,state1,0.1176,0.1229,0.2189,,759,BIC states,0.0548
+protein_measurement,Monomer_AK,250627_tfa160k327_monomer_highS,state2,0.4869,0.1699,0.336,,759,BIC states,0.0948
+protein_measurement,Monomer_AK,250627_tfa160k327_monomer_highS,state3,0.8515,0.09,0.4451,,759,BIC states,0.09
+protein_measurement,Monomer_AK,251022_tfa160k327_monomer,model-free,0.572,0.2475,1.0,,1807,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Monomer_AK,251022_tfa160k327_monomer,state1,0.0677,0.0792,0.1021,,1807,BIC states,0.0428
+protein_measurement,Monomer_AK,251022_tfa160k327_monomer,state2,0.5196,0.1552,0.5288,,1807,BIC states,0.0977
+protein_measurement,Monomer_AK,251022_tfa160k327_monomer,state3,0.7864,0.1037,0.3691,,1807,BIC states,0.1037
+protein_measurement,Monomer_AK,251022_tfa160k327_monomer2,model-free,0.6339,0.238,1.0,,1402,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Monomer_AK,251022_tfa160k327_monomer2,state1,0.3839,0.2383,0.3063,,1402,BIC states,0.0856
+protein_measurement,Monomer_AK,251022_tfa160k327_monomer2,state2,0.7444,0.1294,0.6937,,1402,BIC states,0.1099
+protein_measurement,Monomer_AK,260108_tfa160k327_monomer,model-free,0.6248,0.2496,1.0,,5142,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Monomer_AK,260108_tfa160k327_monomer,state1,0.1725,0.1363,0.1456,,5142,BIC states,0.0643
+protein_measurement,Monomer_AK,260108_tfa160k327_monomer,state2,0.5697,0.1325,0.4128,,5142,BIC states,0.1012
+protein_measurement,Monomer_AK,260108_tfa160k327_monomer,state3,0.8255,0.096,0.4416,,5142,BIC states,0.096
+protein_merged,Monomer_AT,all included,state1,0.1046,0.0976,0.3157,0.0274,4776,width basis: DNA table + shot noise,0.0521
+protein_merged,Monomer_AT,all included,state2,0.5118,0.1743,0.4672,0.0447,4776,width basis: DNA table + shot noise,0.097
+protein_merged,Monomer_AT,all included,state3,0.7933,0.1025,0.217,0.0362,4776,width basis: DNA table + shot noise,0.1025
+protein_measurement,Monomer_AT,240425_tfa230t91_monomer_highS,model-free,0.4867,0.3086,1.0,,1067,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Monomer_AT,240425_tfa230t91_monomer_highS,state1,0.0344,0.0733,0.1735,,1067,BIC states,0.031
+protein_measurement,Monomer_AT,240425_tfa230t91_monomer_highS,state2,0.372,0.1903,0.3828,,1067,BIC states,0.0846
+protein_measurement,Monomer_AT,240425_tfa230t91_monomer_highS,state3,0.7625,0.118,0.4437,,1067,BIC states,0.1077
+protein_measurement,Monomer_AT,260213_tfa230t91_monomer,model-free,0.4322,0.2841,1.0,,3709,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Monomer_AT,260213_tfa230t91_monomer,state1,0.1091,0.0944,0.3265,,3709,BIC states,0.0531
+protein_measurement,Monomer_AT,260213_tfa230t91_monomer,state2,0.512,0.1734,0.4894,,3709,BIC states,0.0971
+protein_measurement,Monomer_AT,260213_tfa230t91_monomer,state3,0.7929,0.1025,0.1841,,3709,BIC states,0.1025
+protein_merged,Monomer_EA,all included,state1,0.0843,0.0741,0.355,0.0253,2895,width basis: DNA table + shot noise,0.0473
+protein_merged,Monomer_EA,all included,state2,0.4702,0.1819,0.4743,0.0454,2895,width basis: DNA table + shot noise,0.0933
+protein_merged,Monomer_EA,all included,state3,0.774,0.1089,0.1707,0.038,2895,width basis: DNA table + shot noise,0.1058
+protein_measurement,Monomer_EA,240420_TFa230e96_monomer_highS,model-free,0.3988,0.3347,1.0,,656,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Monomer_EA,240420_TFa230e96_monomer_highS,state1,0.0461,0.0683,0.3417,,656,BIC states,0.0357
+protein_measurement,Monomer_EA,240420_TFa230e96_monomer_highS,state2,0.3838,0.1911,0.3544,,656,BIC states,0.0856
+protein_measurement,Monomer_EA,240420_TFa230e96_monomer_highS,state3,0.8128,0.0987,0.3039,,656,BIC states,0.0987
+protein_measurement,Monomer_EA,241213_tfa230e96_monomerMg2,model-free,0.3853,0.2719,1.0,,1180,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Monomer_EA,241213_tfa230e96_monomerMg2,state1,0.0956,0.0612,0.3717,,1180,BIC states,0.05
+protein_measurement,Monomer_EA,241213_tfa230e96_monomerMg2,state2,0.5568,0.1909,0.6283,,1180,BIC states,0.1006
+protein_measurement,Monomer_EA,251016_tfA230e96_monomer,model-free,0.3764,0.2638,1.0,,1059,mean and standard deviation of all bursts of this measurement,
+protein_measurement,Monomer_EA,251016_tfA230e96_monomer,state1,0.0967,0.0854,0.338,,1059,BIC states,0.0503
+protein_measurement,Monomer_EA,251016_tfA230e96_monomer,state2,0.5192,0.2027,0.662,,1059,BIC states,0.0977
+protein_merged,pOmpA_A160E96,all included,state1,0.1335,0.0833,0.5956,0.0313,10309,width basis: DNA table + shot noise,0.0579
+protein_merged,pOmpA_A160E96,all included,state2,0.4069,0.1683,0.2184,0.0452,10309,width basis: DNA table + shot noise,0.0877
+protein_merged,pOmpA_A160E96,all included,state3,0.7713,0.1063,0.186,0.0387,10309,width basis: DNA table + shot noise,0.1063
+protein_measurement,pOmpA_A160E96,240502_tfa160e96_client_highS,model-free,0.3386,0.245,1.0,,1681,mean and standard deviation of all bursts of this measurement,
+protein_measurement,pOmpA_A160E96,240502_tfa160e96_client_highS,state1,0.2359,0.1181,0.8128,,1681,BIC states,0.0723
+protein_measurement,pOmpA_A160E96,240502_tfa160e96_client_highS,state2,0.7845,0.1251,0.1872,,1681,BIC states,0.104
+protein_measurement,pOmpA_A160E96,250312_tfa160e96_client,model-free,0.2815,0.264,1.0,,1505,mean and standard deviation of all bursts of this measurement,
+protein_measurement,pOmpA_A160E96,250312_tfa160e96_client,state1,0.1138,0.0755,0.6435,,1505,BIC states,0.0541
+protein_measurement,pOmpA_A160E96,250312_tfa160e96_client,state2,0.4054,0.1217,0.1722,,1505,BIC states,0.0876
+protein_measurement,pOmpA_A160E96,250312_tfa160e96_client,state3,0.7512,0.1094,0.1844,,1505,BIC states,0.1094
+protein_measurement,pOmpA_A160E96,250620_tfa160e96_client,model-free,0.2488,0.2761,1.0,,322,mean and standard deviation of all bursts of this measurement,
+protein_measurement,pOmpA_A160E96,250620_tfa160e96_client,state1,0.1054,0.0953,0.7492,,322,BIC states,0.0523
+protein_measurement,pOmpA_A160E96,250620_tfa160e96_client,state2,0.6771,0.1791,0.2508,,322,BIC states,0.1065
+protein_measurement,pOmpA_A160E96,260116_tfa160e96_client,model-free,0.3257,0.2842,1.0,,2568,mean and standard deviation of all bursts of this measurement,
+protein_measurement,pOmpA_A160E96,260116_tfa160e96_client,state1,0.1333,0.0707,0.6247,,2568,BIC states,0.0579
+protein_measurement,pOmpA_A160E96,260116_tfa160e96_client,state2,0.498,0.1794,0.1866,,2568,BIC states,0.0958
+protein_measurement,pOmpA_A160E96,260116_tfa160e96_client,state3,0.7921,0.1027,0.1886,,2568,BIC states,0.1027
+protein_measurement,pOmpA_A160E96,260802_tfa160e96_client,model-free,0.2952,0.2648,1.0,,1869,mean and standard deviation of all bursts of this measurement,
+protein_measurement,pOmpA_A160E96,260802_tfa160e96_client,state1,0.1275,0.0734,0.6549,,1869,BIC states,0.0568
+protein_measurement,pOmpA_A160E96,260802_tfa160e96_client,state2,0.4315,0.1357,0.145,,1869,BIC states,0.0899
+protein_measurement,pOmpA_A160E96,260802_tfa160e96_client,state3,0.7455,0.1099,0.2,,1869,BIC states,0.1099
+protein_measurement,pOmpA_A160E96,260917_tfa160e96_client,model-free,0.3191,0.2712,1.0,,2364,mean and standard deviation of all bursts of this measurement,
+protein_measurement,pOmpA_A160E96,260917_tfa160e96_client,state1,0.124,0.0879,0.5826,,2364,BIC states,0.0561
+protein_measurement,pOmpA_A160E96,260917_tfa160e96_client,state2,0.4373,0.1463,0.1996,,2364,BIC states,0.0904
+protein_measurement,pOmpA_A160E96,260917_tfa160e96_client,state3,0.7329,0.1093,0.2178,,2364,BIC states,0.1093
+protein_merged,pOmpA_AA,all included,state1,0.3408,0.1635,0.8638,0.0444,6549,width basis: DNA table + shot noise,0.0818
+protein_merged,pOmpA_AA,all included,state2,0.8089,0.0995,0.1362,0.0368,6549,width basis: DNA table + shot noise,0.0995
+protein_measurement,pOmpA_AA,240410_TFa230a297_client_highS,model-free,0.3883,0.228,1.0,,1415,mean and standard deviation of all bursts of this measurement,
+protein_measurement,pOmpA_AA,240410_TFa230a297_client_highS,state1,0.0211,0.0657,0.1142,,1415,BIC states,0.0245
+protein_measurement,pOmpA_AA,240410_TFa230a297_client_highS,state2,0.3476,0.0972,0.6952,,1415,BIC states,0.0824
+protein_measurement,pOmpA_AA,240410_TFa230a297_client_highS,state3,0.757,0.1142,0.1906,,1415,BIC states,0.1085
+protein_measurement,pOmpA_AA,250216_tfa230a297_client,model-free,0.4495,0.2004,1.0,,1573,mean and standard deviation of all bursts of this measurement,
+protein_measurement,pOmpA_AA,250216_tfa230a297_client,state1,0.1143,0.1165,0.1094,,1573,BIC states,0.0542
+protein_measurement,pOmpA_AA,250216_tfa230a297_client,state2,0.4308,0.0911,0.751,,1573,BIC states,0.0898
+protein_measurement,pOmpA_AA,250216_tfa230a297_client,state3,0.8127,0.1021,0.1396,,1573,BIC states,0.0987
+protein_measurement,pOmpA_AA,250216_tfa230a297_client_nomg2,model-free,0.4255,0.2064,1.0,,1148,mean and standard deviation of all bursts of this measurement,
+protein_measurement,pOmpA_AA,250216_tfa230a297_client_nomg2,state1,0.4255,0.2064,1.0,,1148,BIC states,0.0893
+protein_measurement,pOmpA_AA,260204_tfa230a297_client,model-free,0.3748,0.2375,1.0,,2413,mean and standard deviation of all bursts of this measurement,
+protein_measurement,pOmpA_AA,260204_tfa230a297_client,state1,0.2719,0.1419,0.7831,,2413,BIC states,0.0757
+protein_measurement,pOmpA_AA,260204_tfa230a297_client,state2,0.7462,0.11,0.2169,,2413,BIC states,0.11
+protein_merged,pOmpA_AK,all included,state1,0.5432,0.2044,1.0,0.0442,19085,width basis: DNA table + shot noise,0.0998
+protein_measurement,pOmpA_AK,240429_tfa160k327_client_highS,model-free,0.5489,0.1974,1.0,,3194,mean and standard deviation of all bursts of this measurement,
+protein_measurement,pOmpA_AK,240429_tfa160k327_client_highS,state1,0.5489,0.1974,1.0,,3194,BIC states,0.1002
+protein_measurement,pOmpA_AK,240607_tfa160k327_client_highS,model-free,0.5473,0.2052,1.0,,1531,mean and standard deviation of all bursts of this measurement,
+protein_measurement,pOmpA_AK,240607_tfa160k327_client_highS,state1,0.5473,0.2052,1.0,,1531,BIC states,0.1001
+protein_measurement,pOmpA_AK,240620_tfa160k327_client_highS,model-free,0.5547,0.1995,1.0,,3617,mean and standard deviation of all bursts of this measurement,
+protein_measurement,pOmpA_AK,240620_tfa160k327_client_highS,state1,0.5547,0.1995,1.0,,3617,BIC states,0.1005
+protein_measurement,pOmpA_AK,240705_tfa160k327_client_highS,model-free,0.5422,0.2083,1.0,,1435,mean and standard deviation of all bursts of this measurement,
+protein_measurement,pOmpA_AK,240705_tfa160k327_client_highS,state1,0.5422,0.2083,1.0,,1435,BIC states,0.0997
+protein_measurement,pOmpA_AK,240710_tfa160k327_client_highS,model-free,0.4857,0.21,1.0,,2655,mean and standard deviation of all bursts of this measurement,
+protein_measurement,pOmpA_AK,240710_tfa160k327_client_highS,state1,0.4857,0.21,1.0,,2655,BIC states,0.0947
+protein_measurement,pOmpA_AK,240718_tfa160k327_client_highS,model-free,0.5483,0.2112,1.0,,1808,mean and standard deviation of all bursts of this measurement,
+protein_measurement,pOmpA_AK,240718_tfa160k327_client_highS,state1,0.5483,0.2112,1.0,,1808,BIC states,0.1002
+protein_measurement,pOmpA_AK,250627_tfa160k327_client_highS,model-free,0.5447,0.1931,1.0,,1698,mean and standard deviation of all bursts of this measurement,
+protein_measurement,pOmpA_AK,250627_tfa160k327_client_highS,state1,0.2889,0.2064,0.1905,,1698,BIC states,0.0772
+protein_measurement,pOmpA_AK,250627_tfa160k327_client_highS,state2,0.553,0.1016,0.5662,,1698,BIC states,0.1004
+protein_measurement,pOmpA_AK,250627_tfa160k327_client_highS,state3,0.7259,0.109,0.2433,,1698,BIC states,0.109
+protein_measurement,pOmpA_AK,251022_tfa160k327_client,model-free,0.5815,0.2073,1.0,,1246,mean and standard deviation of all bursts of this measurement,
+protein_measurement,pOmpA_AK,251022_tfa160k327_client,state1,0.5815,0.2073,1.0,,1246,BIC states,0.1018
+protein_measurement,pOmpA_AK,260108_tfa160k327_client,model-free,0.5583,0.2003,1.0,,1901,mean and standard deviation of all bursts of this measurement,
+protein_measurement,pOmpA_AK,260108_tfa160k327_client,state1,0.5583,0.2003,1.0,,1901,BIC states,0.1007
+protein_merged,pOmpA_AT,all included,state1,0.2108,0.126,0.8174,0.0374,6653,width basis: DNA table + shot noise,0.0694
+protein_merged,pOmpA_AT,all included,state2,0.7132,0.1374,0.1826,0.0415,6653,width basis: DNA table + shot noise,0.1083
+protein_measurement,pOmpA_AT,250307_tfa230t91_client,model-free,0.2724,0.2714,1.0,,355,mean and standard deviation of all bursts of this measurement,
+protein_measurement,pOmpA_AT,250307_tfa230t91_client,state1,0.1508,0.1227,0.7933,,355,BIC states,0.0609
+protein_measurement,pOmpA_AT,250307_tfa230t91_client,state2,0.7389,0.1557,0.2067,,355,BIC states,0.1096
+protein_measurement,pOmpA_AT,250328_tfa230t91_client,model-free,0.3209,0.2243,1.0,,2923,mean and standard deviation of all bursts of this measurement,
+protein_measurement,pOmpA_AT,250328_tfa230t91_client,state1,0.2345,0.1289,0.8198,,2923,BIC states,0.0721
+protein_measurement,pOmpA_AT,250328_tfa230t91_client,state2,0.7139,0.1241,0.1802,,2923,BIC states,0.1084
+protein_measurement,pOmpA_AT,260213_tfa230t91_client,model-free,0.2898,0.234,1.0,,3375,mean and standard deviation of all bursts of this measurement,
+protein_measurement,pOmpA_AT,260213_tfa230t91_client,state1,0.1952,0.1187,0.813,,3375,BIC states,0.0675
+protein_measurement,pOmpA_AT,260213_tfa230t91_client,state2,0.7015,0.1517,0.187,,3375,BIC states,0.1077
+protein_merged,pOmpA_EA,all included,state1,0.0788,0.072,0.5747,0.0246,3461,width basis: DNA table + shot noise,0.0459
+protein_merged,pOmpA_EA,all included,state2,0.4113,0.1801,0.2317,0.0449,3461,width basis: DNA table + shot noise,0.0881
+protein_merged,pOmpA_EA,all included,state3,0.78,0.1048,0.1936,0.0378,3461,width basis: DNA table + shot noise,0.1048
+protein_measurement,pOmpA_EA,240420_TFa230e96_client_highS,model-free,0.2937,0.3021,1.0,,1578,mean and standard deviation of all bursts of this measurement,
+protein_measurement,pOmpA_EA,240420_TFa230e96_client_highS,state1,0.0695,0.0745,0.5512,,1578,BIC states,0.0433
+protein_measurement,pOmpA_EA,240420_TFa230e96_client_highS,state2,0.3844,0.1763,0.2345,,1578,BIC states,0.0857
+protein_measurement,pOmpA_EA,240420_TFa230e96_client_highS,state3,0.7713,0.1063,0.2143,,1578,BIC states,0.1063
+protein_measurement,pOmpA_EA,260207_tfa230e96_client,model-free,0.2898,0.292,1.0,,1883,mean and standard deviation of all bursts of this measurement,
+protein_measurement,pOmpA_EA,260207_tfa230e96_client,state1,0.0848,0.0681,0.5871,,1883,BIC states,0.0474
+protein_measurement,pOmpA_EA,260207_tfa230e96_client,state2,0.4148,0.1771,0.226,,1883,BIC states,0.0884
+protein_measurement,pOmpA_EA,260207_tfa230e96_client,state3,0.7827,0.1044,0.1869,,1883,BIC states,0.1044

@@ -1,0 +1,4 @@
+state,E,E_err,sigma,sigma_floor,fraction,fraction_err
+state1,0.2729,,0.171,0.04,0.303,
+state2,0.7025,,0.12,0.041,0.391,
+state3,0.8867,,0.053,0.029,0.306,

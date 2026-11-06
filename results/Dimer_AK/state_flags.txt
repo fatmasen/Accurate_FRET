@@ -1,0 +1,2 @@
+state1: E moves by +0.07 with the shot noise width basis
+state2: width sits at the lower bound (0.097) - the data may be narrower than the bound

@@ -1,0 +1,5 @@
+state1: E moves by +0.12 with the shot noise width basis
+state1: population moves by +14 points with the shot noise width basis
+state2: E moves by +0.17 with the shot noise width basis
+state3: width sits at the lower bound (0.093) - the data may be narrower than the bound
+state3: population moves by -20 points with the shot noise width basis
